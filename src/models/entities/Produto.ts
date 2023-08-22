@@ -14,9 +14,7 @@ class Produto {
     @Column({nullable: true})
     imagem: string;
     @Column('decimal', { precision: 6, scale: 2 })
-    preco: number
-
-
+    preco: number;
 }
 
 export default Produto

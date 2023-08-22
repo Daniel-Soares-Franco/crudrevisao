@@ -1,4 +1,4 @@
-import express, {Express} from "express";
+import express, { Express } from "express";
 import cors from "cors";
 import { AppDataSource } from "./data-source";
 import produtoRouter from "./routes/produto.router";

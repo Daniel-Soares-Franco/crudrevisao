@@ -18,5 +18,3 @@ export const ProdutoSchema = z.object({
 export const ProdutoId = z.object({
     id: z.string().length(36)
 })
-
-
